@@ -1,0 +1,9 @@
+Package: rstae
+Title: r client for the stae open data api
+Version: 0.0.0.9000
+Authors@R: Vin Tang
+Description: r client for the stae open data api
+Depends: R (>= 3.2.2)
+License: 
+Encoding: UTF-8
+LazyData: true
