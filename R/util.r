@@ -9,7 +9,7 @@ test <- function(woof){
 fetch_trips <-function(municipalId){
   uri = paste("https://municipal.systems/v1/municipalities/", municipalId, "/trips", sep="")
   r <- httr::GET(uri)
-  e = content(r)$results
+  e = httr::content(r)$results
   f = as.data.frame(do.call(rbind, e))
   f
 }
