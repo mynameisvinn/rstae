@@ -3,6 +3,7 @@ test <- function(woof){
   print(woof)
 }
 
+#' @export
 fetch_trips <-function(municipalId){
   uri = paste("https://municipal.systems/v1/municipalities/", municipalId, "/trips")
   r <- GET(uri)
