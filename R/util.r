@@ -1,5 +1,5 @@
 #' @export
-test <- function(woof){
+test1 <- function(woof){
   print(woof)
 }
 
