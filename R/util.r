@@ -1,5 +1,7 @@
+# after every new function, do $ devtools::document() to expose function
+
 #' @export
-test1 <- function(woof){
+test <- function(woof){
   print(woof)
 }
 
