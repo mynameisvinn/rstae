@@ -3,7 +3,7 @@
 a tool for downloading stae datasets in a r dataframe.
 
 ## Installation
-install from source:
+from r command line, install from source:
 ``` 
 devtools::install_github("mynameisvinn/rstae")
 ```
